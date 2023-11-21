@@ -94,7 +94,7 @@ for epoch in range(epochs):
 
         test_loss=loss_fn(test_logit,y_test)
         test_acc=accuracy_fn(y_true=y_test,y_pred=test_pred)
-#     if epoch%10==0:
+#     if epoch%10==0:   
 #         print(f"epoch : {epoch}, loss : {loss:.5f}, acc : {acc:.2f}%, test loss: {test_loss:.5f}, test accuracy: {test_acc:.2f}%")
 
 
